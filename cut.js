@@ -2,7 +2,7 @@ module.exports = cut
 
 function cut (s) {
   if (!/^\r?\n/.test(s)) return s
-  return deIndent(s).trim()
+  return deIndent(s).cut()
 }
 
 function deIndent (s) {
