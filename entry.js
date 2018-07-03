@@ -1,1 +1,1 @@
-module.exports = require('dpack-entry')
+module.exports = require('@dpack/entry')

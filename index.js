@@ -1,4 +1,4 @@
-var buffgap = require('buffgap')
+var buffgap = require('@dwcore/buffgap')
 var events = require('events')
 var util = require('util')
 
