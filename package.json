@@ -1,6 +1,6 @@
 {
   "name": "@dwcore/clientful",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "dPack Library For Creating BuffGap-Ready Command Line Utilities and Tools.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
