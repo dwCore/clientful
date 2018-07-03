@@ -1,6 +1,6 @@
 {
   "name": "@dwcore/clientful",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "dPack Library For Creating BuffGap-Ready Command Line Utilities and Tools.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -11,8 +11,8 @@
     "test": "standard"
   },
   "dependencies": {
-    "@dwcore/buffgap": "dwcore/buffgap#master",
-    "@dpack/entry": "dpacks/entry#master"
+    "@dpack/entry": "dpacks/entry#master",
+    "@dwcore/buffgap": "dwcore/buffgap#master"
   },
   "devDependencies": {
     "standard": "^10.0.3"
