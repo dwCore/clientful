@@ -2,10 +2,10 @@ module.exports = cut
 
 function cut (s) {
   if (!/^\r?\n/.test(s)) return s
-  return deIndent(s).cut()
+  return deindent(s).trim()
 }
 
-function deIndent (s) {
+function deindent (s) {
   if (!/^\r?\n/.test(s)) return s
   var indent = (s.match(/\n([ ]+)/m) || [])[1] || ''
   s = indent + s

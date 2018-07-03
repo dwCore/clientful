@@ -1,4 +1,4 @@
-var buffgap = require('@dwcore/buffgap')
+var buffgap = require('ansi-diff')
 var events = require('events')
 var util = require('util')
 
